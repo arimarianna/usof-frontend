@@ -1,0 +1,23 @@
+.selectWrapper {
+  position: relative;
+  width: 140px;
+}
+
+.select {
+  width: 100%;
+  padding: 15px 10px;
+  appearance:none;
+  cursor: pointer;
+  position: relative;
+}
+
+.selectWrapper .icon {
+  position: absolute;
+  bottom: 14px;
+  right: 5px;
+}
+
+.placeholder {
+  color: var(--mid-grey);
+  line-height: 1.3;
+}

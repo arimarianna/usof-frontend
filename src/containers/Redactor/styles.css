@@ -1,0 +1,54 @@
+.redactor {
+  margin-top: 40px !important;
+}
+
+.redactor .categories {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 30px;
+}
+
+.redactor .categories * {
+  margin-right: 20px;
+}
+
+.redactor .categoriesAdd {
+  border-radius: 15px;
+  border: 2px var(--mid-grey) dashed;
+  color: var(--mid-grey);
+  outline: none;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 60px;
+  height: 30px;
+  background: none;
+  cursor: pointer;
+}
+
+.redactor .categoriesAddModal {
+  position: absolute;
+  width: 400px;
+  top: 120%;
+}
+
+.categoriesAddModal .buttonClose {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.categoriesAddModal .new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.categoriesAddModal .new div {
+  margin: 0;
+}
+
+.categoriesAddModal .buttonClose button, .categoriesAddModal .new  button {
+  padding: 10px 5px;
+  min-width: 100px;
+}

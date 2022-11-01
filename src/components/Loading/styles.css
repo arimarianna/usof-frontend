@@ -1,0 +1,81 @@
+.loading {
+  display: block;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--shadow);
+}
+
+.loading > div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.loading > div:first-child {
+  background-color: var(--light-green);
+  animation:  first 2.5s infinite ease-in-out;
+}
+
+.loading > div:last-child {
+  background-color: var(--mid-green);
+  animation: second 2.5s infinite ease-in-out;
+}
+
+@keyframes first {
+  0%, 100% {
+    left: 0;
+    top: 0;
+  }
+
+  20%, 25% {
+    left: 22px;
+    top: 0;
+  }
+
+  45%, 50% {
+    left: 22px;
+    top: 22px;
+  }
+
+  70%, 75% {
+    left: 0;
+    top: 22px;
+  }
+}
+
+@keyframes second {
+  0%, 100% {
+    right: 0;
+    bottom: 0;
+  }
+
+  20%, 25% {
+    right: 22px;
+    bottom: 0;
+  }
+
+  45%, 50% {
+    right: 22px;
+    bottom: 22px;
+  }
+
+  70%, 75% {
+    right: 0;
+    bottom: 22px;
+  }
+}

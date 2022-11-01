@@ -1,0 +1,76 @@
+.mainContainer {
+  min-height: 100vh;
+}
+
+.header {
+  height: 60px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+}
+
+.header .defaultWrapper {
+  margin: 0;
+  width: 30%;
+}
+
+.header input[type="text"] {
+  padding: 10px;
+}
+
+.header .profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--yellow);
+  margin-right: 20px;
+}
+
+.header .profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin: 0 !important;
+}
+
+.header .profile .name {
+  max-width: 100px;
+}
+
+.header .profile .name p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.header .profile .name p, .header .profile .name span {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+.header .profile .name span {
+  color: var(--mid-grey);
+  font-size: 12px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.header .profile .actionList {
+  position: absolute;
+  width: 120px;
+  top: 120%;
+  color: var(--mid-grey);
+  padding: 15px 20px;
+}
+
+.header .profile .actionList > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

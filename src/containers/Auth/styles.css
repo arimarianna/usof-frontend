@@ -1,0 +1,30 @@
+.loginLink {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--light-green);
+  text-decoration: none;
+}
+
+.loginLink:hover, .loginLink:focus {
+  text-decoration: underline;
+}
+
+.loginLinkForgot {
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.linkBottom {
+  margin-left: 5px;
+}
+
+.confirmRegister {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

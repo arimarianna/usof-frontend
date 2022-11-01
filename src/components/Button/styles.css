@@ -1,0 +1,23 @@
+.defaultButton { 
+  background-color: var(--light-green);
+  border: 0;
+  outline: 0;
+  border-radius: 15px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.defaultButton:hover {
+  background-color: var(--mid-green);
+}
+
+.defaultButton:focus { 
+  background-color: var(--mid-green);
+  outline: 2px solid var(--light-green);
+}

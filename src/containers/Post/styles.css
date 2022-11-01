@@ -1,0 +1,75 @@
+.post h2, .post h1 {
+  color: var(--mid-green);
+  margin-top: 40px;
+}
+
+.post p {
+  margin: 10px 0 15px;
+  font-size: 15px;
+}
+
+.post .card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px 25px 10px !important; 
+  min-height: 150px;
+}
+
+.post .comments {
+  margin-bottom: 30px !important;
+}
+
+.post .postCard {
+  min-height: 200px;
+}
+
+.post .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.post .categories {
+  margin-bottom: 20px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.post .bottom div {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.post .originator {
+  color:  var(--yellow);
+}
+
+.post .bottom .left {
+  color: var(--light-grey);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 35px;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.post .bottom .highlight {
+  color: var(--mid-green);
+}
+
+.post .bottom .highlight svg path {
+  fill: var(--mid-green);
+}
+
+.post .comments {
+  margin-bottom: 80px;
+}
+
+.post .send {
+  display: flex;
+  justify-content: flex-end;
+}

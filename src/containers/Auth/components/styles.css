@@ -1,0 +1,28 @@
+.containerLoginWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerLogin {
+  width: 500px;
+  height: 650px;
+  background: var(--white-dark) !important;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerLogin > div {
+  width: 90%;
+}
+
+.containerLoginBottom {
+  font-size: 12px;
+  color: var(--mid-grey);
+  text-align: center;
+}

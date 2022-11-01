@@ -1,0 +1,130 @@
+.profile {
+  margin-top: 40px !important;
+  display: grid;
+  grid-template-columns: 300px 1.5fr;
+  min-height: 100%;
+}
+
+.profile .user {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.profile .user .avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid var(--yellow);
+}
+
+.profile .right {
+  margin-left: 20px;
+}
+
+.profile .total {
+  color: var(--light-grey);
+  width: 240px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile .info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile .info p {
+  margin: 0 0 5px;
+}
+
+.profile .info span {
+  color: var(--light-grey);
+  font-size: 12px;
+}
+
+.profile .editProfile {
+  position: fixed;
+  z-index: 80;
+  width: 600px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  padding: 30px 25px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.profile .shadow {
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 30;
+  background-color: var(--shadow);
+}
+
+.editProfile .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button:first-of-type {
+  margin-right: 20px;
+  background-color: var(--light-grey);
+  color: var(--mid-green);
+}
+
+.buttonFile {
+  position: relative;
+  width: 140px;
+  text-align: center;
+}
+
+.button input[type="file"] {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0
+}
+
+.adminTable {
+  display: grid;
+  grid-template-columns: 20px 1fr 1.5fr 120px;
+  grid-auto-rows: 40px;
+  align-items: center;
+}
+
+.adminTable .selectWrapper {
+  width: 80px;
+}
+
+.adminTable select {
+  padding: 5px 10px;
+}
+
+.adminTable .selectWrapper .icon {
+  bottom: 3px;
+}
+
+.adminTable .login {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.adminTable .login:hover {
+  text-decoration: underline;
+}

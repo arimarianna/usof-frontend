@@ -1,0 +1,19 @@
+.category {
+  border-radius: 15px;
+  border: 1px var(--light-grey) solid;
+  color: var(--light-grey);
+  outline: none;
+  font-size: 14px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background: var(--white);
+  cursor: default;
+}
+
+.categoryActive {
+  border: 1px var(--light-green) solid;
+  color: var(--white);
+  background: var(--light-green);
+}

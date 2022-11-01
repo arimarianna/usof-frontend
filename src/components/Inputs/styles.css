@@ -1,0 +1,50 @@
+.defaultWrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.defaultWrapper > .error {
+  position: absolute;
+  height: 14px;
+  left: 10px;
+  top: 100%;
+  color: var(--red);
+  font-size: 12px;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 6px 0 0;
+}
+
+.defaultWrapper > label, .selectWrapper > label {
+    display: block;
+    color: var(--mid-green);
+    font-weight: 400;
+    margin: 0 0 10px 5px;
+    font-size: 18px;
+  }
+
+.defaultInput {
+  width: 100%;
+  background: var(--white);
+  border-radius: 15px;
+  padding: 15px;
+  border: 0;
+  cursor: text;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+}
+
+.defaultInput:focus {
+  outline: 2px solid var(--light-green);
+}
+
+.defaultInput::placeholder {
+  color: var(--mid-grey);
+}
+
+.inputShadow {
+  box-shadow: 2px 2px 8px 2px var(--shadow);
+}
